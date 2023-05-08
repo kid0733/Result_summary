@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:wght@900&family=Poppins:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 15%;
+  margin: 0 auto;
+  width: 550px;
+  display: flex;
+}
+.lhs {
+  background: hsl(234, 85%, 45%);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.left-one {
+  color: hsl(236, 26%, 79%);
+  font-weight: 250%;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+.inner {
+  background-image: linear-gradient(rgb(44, 13, 130), hsla(241, 72%, 46%, 0));
+  border-radius: 100%;
+  width: 85%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 250px;
+}
+.score {
+  font-size: 2.8rem;
+  padding-bottom: 5px;
+}
+.hundred {
+  font-size: 0.7rem;
+  color: hsl(236, 26%, 79%);
+}
+.left-two {
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+.left-three {
+  font-size: 0.7rem;
+  color: hsl(236, 26%, 79%);
+  padding-bottom: 50px;
+  text-align: center;
+  width: 75%;
+}
+.rhs {
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+  box-shadow:
+   10px 6px 15px 0px #d4d2e7;
+
+  text-align: left;
+  border-radius: 15px;
+}
+.right-one {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-red {
+  margin: 15px;
+  width: 100%;
+  background: hsl(0, 100%, 96%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+  color: hsl(0, 100%, 67%);
+  font-size: 0.8rem;
+}
+.right-yellow {
+  margin: 15px;
+  width: 100%;
+  background: hsl(38, 94%, 94%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+  color: hsl(39, 100%, 56%);
+  font-size: 0.8rem;
+}
+.right-green {
+  margin: 15px;
+  width: 100%;
+  background: hsl(166, 83%, 91%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+  color: hsl(166, 100%, 37%);
+  font-size: 0.8rem;
+}
+.right-purple {
+  margin: 15px;
+  width: 100%;
+  background: hsl(235, 100%, 93%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+  color: hsl(234, 85%, 45%);
+  font-size: 0.8rem;
+}
+.btn {
+  width: 100%;
+  padding: 10px 0;
+}
+button {
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(7, 3, 78);
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+}
